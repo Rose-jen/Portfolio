@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <body style="background-color: #44624a;">
+
+  <h1 style="background-color: #86a96f; padding: 5px; border-radius: 10px; text-alignment: center;">
+  Triple DES
+  </h1>
+
+<div style="background-color: #86a96f; padding: 5px; border-radius: 5px; text-alignment: center;">
+
+  <div>
+  enter phrase:
+  <input type="text" id="inputPhrase" style="border-radius: 5px; border: none;">
+
+  </div>
+  <div>
+  enter key: 
+  <input type="number" id="inputKey" style="border-radius: 5px; border: none;">
+  </div>
+
+  <button onclick="web()" style="border: none; padding: 5px; text-alignment: center; border-radius: 5px; background-color: #ADD8E6;">
+  <b>Click</b>
+  </button> 
+
+</div> 
+
+
+<div>
+
+  <div>
+
+  <h3>
+  Encrypted Result:
+  </h3>
+  <p id="encryptTry"></p>
+
+  </div>
+
+  <div>
+
+  <h3>
+  Decrypted Result:
+  </h3>
+  <p id="decyptTry"></p>
+
+  </div>
+
+</div>  
+
+  </body>
+
+<script src="DES.js"></script>
+
+</html>

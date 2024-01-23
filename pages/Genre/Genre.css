@@ -1,0 +1,17 @@
+body {
+  background-color: #7A43B6;
+}
+
+.button {
+  background-color: #89CFF0;
+  color: #000;
+  border-color: #C3B1E1;
+  border-radius: 8px;
+}
+
+.button:active {
+  background-color: blue;
+  color: #FFF;
+  border-color: #E6E6FA;
+  border-radius: 8px;
+}

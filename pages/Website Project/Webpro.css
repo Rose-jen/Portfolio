@@ -1,0 +1,71 @@
+body {
+  background-color: #FFFFFF;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: red;
+}
+
+/* NAV BAR */
+.topnav {
+  background-color: #FFFEFF;
+  overflow: hidden;
+   margin: 10px 50px 10px 50px;
+}
+
+.topnav a {
+  float: center;
+  text-align: center;
+  text-decoration: none;
+  color: #CE2F2F;
+  padding: 5px 10px 5px 10px;
+}
+
+.topnav a:hover {
+  background-color: #CE2F2F;
+  color: #FFFFFF;
+}
+
+.btn {
+  background-color: #CE2F2F;
+}
+
+text {
+  font-family: "Klarissa";
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  text-decoration: none;
+  color: #68686A;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 6px 2px rgb (104, 107, 107);
+}
+
+.box {
+  border: 1px #686b6b;
+  padding: 8px 8px 2px 5px;
+  margin: 2px;
+}
+
+p.ridge {
+  outline: 2px;
+  outline-style: ridge;
+  outline-color: #686b6b;
+}
+
+.container {
+ border: 2px;
+ border-color: #686b6b;
+}
